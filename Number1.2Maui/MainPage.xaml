@@ -1,0 +1,20 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Number1._2Maui.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Введіть ціле число:"
+               FontSize="Medium"/>
+
+        <Entry x:Name="NumberEntry"
+               Keyboard="Numeric"
+               Placeholder="Ціле число"/>
+
+        <Button Text="Показати число"
+                Clicked="OnShowNumberButtonClicked"/>
+
+        <Label x:Name="ResultLabel"
+               FontSize="Medium"
+               TextColor="Black"/>
+    </StackLayout>
+</ContentPage>
